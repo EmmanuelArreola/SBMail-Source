@@ -1,9 +1,15 @@
-package mx.com.sixdelta.cloud.stream.bean;
+package com.n3xgen.source.mail.cloud.stream.bean;
 
 import java.util.List;
 
 import lombok.Data;
 
+/**
+ * This is a bean to receive a mail request (can be more than one at time) 
+ * 
+ * @author Jafet Malváez López
+ *
+ */
 @Data
 public class Mail {
 
